@@ -1,1 +1,124 @@
-<b>BABEEEEEEEEEEEE</b>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Project Wiki</title>
+    <style>
+        body {
+            font-family: "Verdana", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 2px solid #4caf50;
+            border-radius: 8px;
+            animation: slideIn 1s ease-out;
+        }
+        section h2 {
+            margin-top: 0;
+            color: #4caf50;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4caf50;
+            color: white;
+            position: relative;
+        }
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        /* Links */
+        .links-box {
+            margin-top: 10px;
+            background: #e0f7fa;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .links-box a {
+            color: #4caf50;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+            transition: color 0.3s ease;
+        }
+        .links-box a:hover {
+            color: #2e7d32;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Research Project Wiki</h1>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+        </section>
+        <section id="importance">
+            <h2>Importance of the Topic</h2>
+        </section>
+        <section id="methods">
+            <h2>Research Methods</h2>
+        </section>
+        <section id="findings">
+            <h2>Findings</h2>
+        </section>
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+        </section>
+        <section id="resources">
+            <h2>Additional Resources</h2>
+            <div class="links-box">
+                <a href="#">Resource 1</a>
+                <a href="#">Resource 2</a>
+                <a href="#">Resource 3</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Research Project Wiki | Knowledge at Your Fingertips</p>
+    </footer>
+</body>
+</html>
