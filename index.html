@@ -1,124 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Research Wiki</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f9f9f9;
-        color: #333;
-      }
-      header {
-        background-color: #4caf50;
-        color: white;
-        text-align: center;
-        padding: 20px;
-      }
-      main {
-        max-width: 900px;
-        margin: 20px auto;
-        padding: 20px;
-        background: white;
-        border-radius: 10px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        animation: fadeIn 1s ease-in-out;
-      }
-      section {
-        margin-bottom: 20px;
-        padding: 20px;
-        border: 2px solid #4caf50;
-        border-radius: 8px;
-        animation: slideIn 1s ease-out;
-      }
-      section h2 {
-        margin-top: 0;
-        color: #4caf50;
-      }
-      footer {
-        text-align: center;
-        padding: 10px;
-        background-color: #4caf50;
-        color: white;
-      }
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      @keyframes slideIn {
-        from {
-          transform: translateY(20px);
-          opacity: 0;
-        }
-        to {
-          transform: translateY(0);
-          opacity: 1;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Research Wiki</h1>
-    </header>
-    <main>
-      <section id="introduction">
-        <h2>Introduction</h2>
-        <p>Explore the following topics to enhance your knowledge and research abilities.</p>
-      </section>
-      <section id="topics">
-        <h2>Topics</h2>
-        <ul>
-          <li>Ways to Conserve Water</li>
-          <li>Danger of Monocrops</li>
-          <li>Impacts of Climate Change on Biodiversity</li>
-          <li>Primary vs Secondary Succession</li>
-          <li>Indigenous Agriculture</li>
-          <li>Mining in the Ring of Fire</li>
-        </ul>
-      </section>
-      <section id="resources">
-        <h2>Resources</h2>
-        <p>Find helpful resources for each topic below:</p>
-        <ul>
-          <li>
-            <a href="https://www.constellation.com/energy-101/water-conservation-tips0.html">
-              Water Conservation Tips
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/watch?v=VH_wt8xBrm4">
-              Dangers of Monocrops Video
-            </a>
-          </li>
-          <li>
-            <a href="https://www.ifaw.org/ca-en/journal/impact-climate-change-animals">
-              Impact of Climate Change on Biodiversity
-            </a>
-          </li>
-          <li>
-            <a href="https://kids.kiddle.co/Ecological_succession">Ecological Succession</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/watch?v=UeGRftRk0Uc">Indigenous Agriculture Video</a>
-          </li>
-          <li>
-            <a href="https://canadiangeographic.ca/articles/whats-at-stake-in-ontarios-ring-of-fire/">
-              Mining in the Ring of Fire
-            </a>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <p>© 2024 Research Wiki</p>
-    </footer>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research Hub</title>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+  />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: #121316;
+      color: #e4e4e7;
+    }
+    .header {
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(90deg, #4f46e5, #9333ea);
+      color: #fff;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .topic {
+      margin: 1rem 0;
+      padding: 1rem;
+      border: 1px solid #444;
+      border-radius: 10px;
+      background: #1f1f2e;
+      transition: transform 0.3s;
+    }
+    .topic:hover {
+      transform: translateY(-5px);
+    }
+    .topic h3 {
+      margin: 0;
+      color: #4f46e5;
+    }
+    .footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1f1f2e;
+      color: #999;
+    }
+    a {
+      color: #9333ea;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Research Hub</h1>
+    <p>Explore research topics and resources curated for grades 6–8</p>
+  </header>
+
+  <section class="section">
+    <h2>Topics</h2>
+    <div class="topic">
+      <h3>Danger of Monocrops</h3>
+      <p>
+        Understand the risks of monoculture farming and its impact on ecosystems. Learn more through the following resources:
+      </p>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=VH_wt8xBrm4" target="_blank">Video 1</a></li>
+        <li><a href="https://www.youtube.com/watch?v=pFRXY8bV_ug" target="_blank">Video 2</a></li>
+      </ul>
+    </div>
+    <div class="topic">
+      <h3>Role of Indigenous Leaders in Water Safety</h3>
+      <p>
+        Discover how Indigenous leaders advocate for water safety in Canada. Dive into the resources below:
+      </p>
+      <ul>
+        <li><a href="https://nwac.ca/policy/water-is-a-source-of-life" target="_blank">Article 1</a></li>
+        <li><a href="https://www.cbc.ca/radio/unreserved/water-is-sacred-protecting-1.6818685" target="_blank">Article 2</a></li>
+      </ul>
+    </div>
+    <div class="topic">
+      <h3>Impacts of Climate Change on Biodiversity</h3>
+      <p>
+        Learn about the effects of climate change on global biodiversity through these articles:
+      </p>
+      <ul>
+        <li><a href="https://www.ifaw.org/ca-en/journal/impact-climate-change-animals#:~:text=Climate%20change%20threatens%20vital%20biodiversity" target="_blank">Impact on Animals</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Research Hub | Created to inspire young minds.</p>
+  </footer>
+</body>
 </html>
